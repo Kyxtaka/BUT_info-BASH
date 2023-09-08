@@ -6,6 +6,7 @@
 
 
 ## 1.2 Se repérer et se déplacer
-
+revision commande ls et cd
+- ex de chemin absolu : 
 
 
