@@ -7,6 +7,9 @@
 
 ## 1.2 Se repérer et se déplacer
 revision commande ls et cd
-- ex de chemin absolu : 
+- ex de chemin absolu : /home/Kyxtaka
+- commande de changement de chemin : 
+    - cd .. : revient en arrière   
+    - cd ./{chemin}
 
 
