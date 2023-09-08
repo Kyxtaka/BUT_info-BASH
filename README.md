@@ -19,3 +19,7 @@ revision commande ls et cd
 - `cat <adresse_vers_fichier>` permet de lire les fichier du dossier actuel
 - <kbd>Tab</kbd> : autocomplétion du début d'une commande 
 
+## 1.4
+ - `ls ..` permet de lister le contenu de home
+ - `le <chemin>` permet de lister le contenu d'un chemin 
+ 
