@@ -22,6 +22,7 @@ revision commande ls et cd
 ## 1.4
  - `ls ..` permet de lister le contenu de home
  - `le <chemin>` permet de lister le contenu d'un chemin 
+ - `ls -l` : donne des infos comme les date et les droit sur les fichier lister dans le repertoire
  
 ## Cours 2 : 
 ### Nano command
@@ -48,6 +49,11 @@ revision commande ls et cd
 
  - `touch  <chemin vers fichier inexistant>` : Permet de creer un fichier vide
 
+### Du command 
+- `du <chemin vers un dossier` : signifie Disk Usage : permet de connaitre la taille d'un repertoire
+
 ### rm command : remove
 
 - `rm <chemin de fichier>` : supprime un ficher
+- `rm -r ou --recursive<chemin vers dossier>` : Efface les dossier et fichier enfants du chemin specifie 
+- `rm -r/` : Efface tout l'ordi
