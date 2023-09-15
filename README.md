@@ -25,4 +25,4 @@ revision commande ls et cd
  
 ## 15 sep 23
 
-suite test test config name and email
+suite test test config retry
