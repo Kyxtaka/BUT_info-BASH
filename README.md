@@ -40,3 +40,6 @@ revision commande ls et cd
     - `mkdir /Usr/machin/`
 
     - `mkdir -r /usr/machin/truc/bidule` : (-r = recursive)
+
+### Touch Command 
+ - `touch <chemin vers un fichier>` : Permet de mettre a jour (a l'heure / Date) de derniere modification 
