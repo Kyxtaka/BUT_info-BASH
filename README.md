@@ -50,7 +50,7 @@ revision commande ls et cd
  - `touch  <chemin vers fichier inexistant>` : Permet de creer un fichier vide
 
 ### Du command 
-- `du <chemin vers un dossier` : signifie Disk Usage : permet de connaitre la taille d'un repertoire en octets
+- `du <chemin vers un dossier` : signifie Disk Usage : permet de connaitre la taille d'un repertoire en Kilo-Byte soit Kilo Octets (512*2 = 1024 bytes)
 - `du -s ou --summuerise (somme) <dossier>` : Faire la somme de l'espace disque utilise 
 - `du -h ou --human-readable <dossier>` : Affiche la taille avec une unite plus facile a lire 
 
@@ -63,3 +63,11 @@ Taille de votre home
 - `rm <chemin de fichier>` : supprime un ficher
 - `rm -r ou --recursive<chemin vers dossier>` : Efface les dossier et fichier enfants du chemin specifie 
 - `rm -r/` : Efface tout l'ordi
+
+### Taille de fichier 
+- bit  -> 0 ou 1
+- octet -> 8 bits 
+- Ko (Kilo-Octet) -> 1000 (10**3) octets
+- Mo (Mega-Octet) -> 1 000 000 (10**6) Octets
+- Go (Giga-Octets) -> 1 000 000 000 (10**9) Octets
+- To *=(Terra-Octets) -> 10**12 Octets
