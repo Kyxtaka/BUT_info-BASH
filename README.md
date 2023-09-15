@@ -23,6 +23,19 @@ revision commande ls et cd
  - `ls ..` permet de lister le contenu de home
  - `le <chemin>` permet de lister le contenu d'un chemin 
  
-## 15 sep 23
+## Cours 2 : 
+### Nano command
 
-suite test test config retry
+ - `nano <chemin vers un fichier>` : 
+    -  Ouvre un éditeur de fichier
+    - Commande ^S => Sauvegarder ( `^` = <kbd>ctrl</kbd>)
+
+ - `mkdir <repertoir>` :
+    -  `mkdir ./doc/` 
+    -  `mkdir doc/`
+    -  `mkdir /Home/Toto/doc`
+
+    - `mkdir ../../Usr/nachin`
+    - `mkdir /Usr/machin/`
+
+    - `mkdir -r /usr/machin/truc/bidule` : (-r = recursive)
