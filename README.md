@@ -50,7 +50,9 @@ revision commande ls et cd
  - `touch  <chemin vers fichier inexistant>` : Permet de creer un fichier vide
 
 ### Du command 
-- `du <chemin vers un dossier` : signifie Disk Usage : permet de connaitre la taille d'un repertoire
+- `du <chemin vers un dossier` : signifie Disk Usage : permet de connaitre la taille d'un repertoire en octets
+- `du -s ou --summuerise (somme) <dossier>` : Faire la somme de l'espace disque utilise 
+- `du -h ou --human-readable <dossier>` : Affiche la taille avec une unite plus facile a lire 
 
 ### rm command : remove
 
