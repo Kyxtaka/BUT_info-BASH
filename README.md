@@ -54,6 +54,10 @@ revision commande ls et cd
 - `du -s ou --summuerise (somme) <dossier>` : Faire la somme de l'espace disque utilise 
 - `du -h ou --human-readable <dossier>` : Affiche la taille avec une unite plus facile a lire 
 
+Taille de votre home 
+- `du -sh /home/Toto`
+- `du -sh ~`
+
 ### rm command : remove
 
 - `rm <chemin de fichier>` : supprime un ficher
