@@ -30,6 +30,7 @@ revision commande ls et cd
     -  Ouvre un éditeur de fichier
     - Commande ^S => Sauvegarder ( `^` = <kbd>ctrl</kbd>)
 
+### Mkdir command
  - `mkdir <repertoir>` :
     -  `mkdir ./doc/` 
     -  `mkdir doc/`
