@@ -41,5 +41,13 @@ revision commande ls et cd
 
     - `mkdir -r /usr/machin/truc/bidule` : (-r = recursive)
 
+    - `mkdir test1 test2 test3 test4` : permet de creer 4 sous dossier en meme temps
+
 ### Touch Command 
  - `touch <chemin vers un fichier>` : Permet de mettre a jour (a l'heure / Date) de derniere modification 
+
+ - `touch  <chemin vers fichier inexistant>` : Permet de creer un fichier vide
+
+### rm command : remove
+
+- `rm <chemin de fichier>` : supprime un ficher
