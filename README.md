@@ -70,4 +70,4 @@ Taille de votre home
 - Ko (Kilo-Octet) -> 1000 (10**3) octets
 - Mo (Mega-Octet) -> 1 000 000 (10**6) Octets
 - Go (Giga-Octets) -> 1 000 000 000 (10**9) Octets
-- To *=(Terra-Octets) -> 10**12 Octets
+- To *=(Terra-Octets) -> 10**12 Octets.
