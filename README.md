@@ -75,7 +75,7 @@ Taille de votre home
 ### Procesus : (Voir cours de NSI sur Gestion des processus et des ressource dans le drive)
 
 ## Cours : 3
-### Droits
+## Droits
 - ` ls -l ` : -rwxrw---- 1 bob etu  123 sept 22 14h fichier 1.txt ==> Liste les droit de tous les fichier présent dans le repertoir courant
 - d : nature dossier ; - : nature fichier ; r : droit de lecture; w : droit d'écriture ; x : droit d'execution
     - droit pour éffectuer les commande : 
@@ -83,7 +83,7 @@ Taille de votre home
         - Droit écriture : nano, (rediriger une sortie vers ce fichier (disposer des droits écriture))
 
 ### Changer les droits : 
-## chmod  : (simple syntax)
+### chmod  : (simple syntax)
 - ` <chmod <ugoa><+|-><rwx> FILE...> ` :  permet de changer les droit d'un fichier
 - u : propriétair, g : groupe, o : reste du monde, a : toues les catégories de personne Propriétaire, groupe et Other
 - droit : 
@@ -95,7 +95,7 @@ Taille de votre home
 - `=` : affectation 
 - `chmod u-w,go+x <fichier>` 
 
-## chmod syntax octal : 
+### chmod syntax octal : 
 - `chmod  <octal>` : rwx ==> 111 ==> 2^2 + 2^1 + 2^1 = 7 
 - `chmod 760` : rwxrw ==> rwx : 7, rw- : 6, --- : 0
 - `chmod 764` : rwx : 7, rw- : 6, r : 4
