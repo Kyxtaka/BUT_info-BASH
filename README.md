@@ -91,8 +91,13 @@ Taille de votre home
 - `+` : ajouter des droit 
 - `-` : retirer des droits
 - `=` : affectation 
+- `chmod u-w,go+x <fichier>` 
 
-
+## chmod syntax octal : 
+- `chmod  <octal>` : rwx ==> 111 ==> 2^2 + 2^1 + 2^1 = 7 
+- `chmod 760` : rwxrw ==> rwx : 7, rw- : 6, --- : 0
+- `chmod 764` : rwx : 7, rw- : 6, r : 4
+- ``chmod 777` : rwxrwxrwx : donne tous les droit a tous le monde
 
 
 
