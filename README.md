@@ -72,6 +72,8 @@ Taille de votre home
 - Go (Giga-Octets) -> 1 000 000 000 (10**9) Octets
 - To *=(Terra-Octets) -> 10**12 Octets.
 
+### Procesus : (Voir cours de NSI sur Gestion des processus et des ressource dans le drive)
+
 ## Cours : 3
 ### Droits
 - ` ls -l ` : -rwxrw---- 1 bob etu  123 sept 22 14h fichier 1.txt ==> Liste les droit de tous les fichier présent dans le repertoir courant
@@ -97,7 +99,7 @@ Taille de votre home
 - `chmod  <octal>` : rwx ==> 111 ==> 2^2 + 2^1 + 2^1 = 7 
 - `chmod 760` : rwxrw ==> rwx : 7, rw- : 6, --- : 0
 - `chmod 764` : rwx : 7, rw- : 6, r : 4
-- ``chmod 777` : rwxrwxrwx : donne tous les droit a tous le monde
+- `chmod 777` : rwxrwxrwx : donne tous les droit a tous le monde
 
 
 
