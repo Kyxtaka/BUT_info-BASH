@@ -80,6 +80,23 @@ Taille de votre home
         - Droit de lescture :  cat, cp, grep
         - Droit écriture : nano, (rediriger une sortie vers ce fichier (disposer des droits écriture))
 
+### Changer les droits : 
+## chmod  : (simple syntax)
+- ` <chmod <ugoa><+|-><rwx> FILE...> ` :  permet de changer les droit d'un fichier
+- u : propriétair, g : groupe, o : reste du monde, a : toues les catégories de personne Propriétaire, groupe et Other
+- droit : 
+    - r : lecture
+    - w : ecriture 
+    - x : execution
+- `+` : ajouter des droit 
+- `-` : retirer des droits
+- `=` : affectation 
+
+
+
+
+
+
 ### Move command
 
 ### Redirection de sortie : 
