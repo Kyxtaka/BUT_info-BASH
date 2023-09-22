@@ -122,3 +122,7 @@ Taille de votre home
 - `<command> 2> <fich.log erreur> >> <fich.txt erreur>` : Même commande sauf que les sprtie standart s'ajoute au fur et a mesure
 - `<command 2> /dev/null` :  envoie la sortie d'erreur dans le trou noir
 - `<command> 2> /dev/null > <fichier.txt>` : envoie la sortie d'erreur dans le trou noir mais la sortie standart dans le fichier txt
+
+### Script : 
+`#!/bin/bash <command> <$parameter>` : lance la commande avec l'attribut
+`a=$(<command>)` : stock une commande dans un variable dans le fichier sh 
