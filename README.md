@@ -71,3 +71,13 @@ Taille de votre home
 - Mo (Mega-Octet) -> 1 000 000 (10**6) Octets
 - Go (Giga-Octets) -> 1 000 000 000 (10**9) Octets
 - To *=(Terra-Octets) -> 10**12 Octets.
+
+## Cours : 3
+### Droits
+
+
+### Redirection de sortie : 
+- sortie standart : sortie execution de command
+- sortie erreur : erreur
+- `<command> > <fichier txt>` :  sauvegarde la sortie de la de la commande dans le fichier text en remplacant le contenu
+- `<command> >> <fichier, chemin absolu ou relatif>` : ajoute au fichier le contenue de la sortie de la command, sans remplacer le contenu précédent 
