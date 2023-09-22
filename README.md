@@ -81,3 +81,5 @@ Taille de votre home
 - sortie erreur : erreur
 - `<command> > <fichier txt>` :  sauvegarde la sortie de la de la commande dans le fichier text en remplacant le contenu
 - `<command> >> <fichier, chemin absolu ou relatif>` : ajoute au fichier le contenue de la sortie de la command, sans remplacer le contenu précédent 
+- `<command> 2> <fichier.log>` : signifie qu'on souhait que rediriger la sortie d'erreur dans le fichie log
+- `<command> 2> <fich.log erreur> > <fich.txt erreur>` : Signifie que l'on veut rediriger les deux sortie, les erreur dans le fichier log et la sortie standart dans le fichier txt
