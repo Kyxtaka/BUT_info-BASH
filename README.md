@@ -101,10 +101,16 @@ Taille de votre home
 - `chmod 764` : rwx : 7, rw- : 6, r : 4
 - `chmod 777` : rwxrwxrwx : donne tous les droit a tous le monde
 
-
-
-
 ### Move command
+- `mv <adress de départ> <adresse d'arrivée>` : Déplace un fichier
+- `mv fichier1 fichier2` : rename fichier1 e, fochier 2
+- `mw <fichier> /home/toto/document/fichier2` : déplacele fichier cer le nouvel emplacement
+
+### Manuel
+- `man <command>` : ouvre le manuel
+- <kbd>&uarr;</kbd> et <kbd>&darr;</kbd> : se déplacer
+- <kbd> q </kbd> : quitter
+- `/<text>` : permet de faire une recherche a partir d'un terme 
 
 ### Redirection de sortie : 
 - sortie standart : sortie execution de command
