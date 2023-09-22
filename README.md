@@ -77,8 +77,8 @@ Taille de votre home
 - ` ls -l ` : -rwxrw---- 1 bob etu  123 sept 22 14h fichier 1.txt ==> Liste les droit de tous les fichier présent dans le repertoir courant
 - d : nature dossier ; - : nature fichier ; r : droit de lecture; w : droit d'écriture ; x : droit d'execution
 - droit pour éffectuer les commande : 
- - Droit de lescture :  cat, cp, grep
- - Droit écriture : nano, (rediriger une sortie vers ce fichier (disposer des droits écriture))
+   - Droit de lescture :  cat, cp, grep
+   - Droit écriture : nano, (rediriger une sortie vers ce fichier (disposer des droits écriture))
 ### Redirection de sortie : 
 - sortie standart : sortie execution de command
 - sortie erreur : erreur
