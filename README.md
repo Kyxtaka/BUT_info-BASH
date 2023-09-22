@@ -85,9 +85,9 @@ Taille de votre home
 - ` <chmod <ugoa><+|-><rwx> FILE...> ` :  permet de changer les droit d'un fichier
 - u : propriétair, g : groupe, o : reste du monde, a : toues les catégories de personne Propriétaire, groupe et Other
 - droit : 
-    - r : lecture
-    - w : ecriture 
-    - x : execution
+    - `r` : lecture
+    - `w` : ecriture 
+    - `x` : execution
 - `+` : ajouter des droit 
 - `-` : retirer des droits
 - `=` : affectation 
