@@ -79,6 +79,9 @@ Taille de votre home
     - droit pour éffectuer les commande : 
         - Droit de lescture :  cat, cp, grep
         - Droit écriture : nano, (rediriger une sortie vers ce fichier (disposer des droits écriture))
+
+### Move command
+
 ### Redirection de sortie : 
 - sortie standart : sortie execution de command
 - sortie erreur : erreur
