@@ -159,3 +159,5 @@ Advande packages tool : `apt`
 - `apt list --installed` : retourne la list de tout les paquet installés
 - `sudo apt install <package_name>` : installe le packet demander pour installer le logiciel
 - `apt-cache search <key word>` : rechercher un packet par mot clé dans la list de packet 
+- `sudo apt update` : mettre a jour la liste de paquets disponibles
+- `sudo apt upgrade` : mettre a jour la liste de paquet installés
