@@ -138,10 +138,13 @@ Taille de votre home
 
 ### Script : 
 - `#!/bin/bash <command> <$parameter>` : lance la commande avec l'attribut
-- `a=$(<command>)` : stock une commande dans un variable dans le fichier sh ==> Les " " (espace) ne marche pas 
+- `a=$(<command>)` : stock le resultat une commande dans une variable dans le fichier sh. Les " " (espace) ne marche pas et garder les ()
 - `\<character>` : `\` est le caractère d'échapment permet de rajouter des espace ou `" ou '` dans un seul argument
 - `<command> $<charactère ou mot>` : `$1` sera l'attribut mis en paramètre lors de l'apelle de la commande
 - Trouver l'interpreteur : `which bash`
 - 1er ligne de fichier script : `#!/bin/bash`
+
+### Script et attribut : 
+- dans le script si son ecrit `echo Bonjour $1` ==> si on appel le fichier tel que : fichier.sh Test ==> Bonjour Test (resultat)
 
 
