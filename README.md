@@ -144,8 +144,18 @@ Taille de votre home
 - Trouver l'interpreteur : `which bash`
 - 1er ligne de fichier script : `#!/bin/bash`
 
+
 ### Script et attribut : 
 - dans le script si son ecrit `echo Bonjour $1` ==> si on appel le fichier tel que : fichier.sh Test ==> Bonjour Test (resultat)
 - `$(whoami)` : interprete le resultat de la commande whoami 
     - `echo Bonjour $(whoami)` : resultet = echo '''mon nom d'utilisateur'''
 
+### Variable : 
+-`nom=$(<command>)`: variable
+
+
+### Install Packages 
+Advande packages tool : `apt`
+- `apt list --installed` : retourne la list de tout les paquet installés
+- `sudo apt install <package_name>` : installe le packet demander pour installer le logiciel
+- `apt-cache search <key word>` : rechercher un packet par mot clé dans la list de packet 
