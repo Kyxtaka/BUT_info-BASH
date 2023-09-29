@@ -100,6 +100,7 @@ Taille de votre home
 - `chmod 760` : rwxrw ==> rwx : 7, rw- : 6, --- : 0
 - `chmod 764` : rwx : 7, rw- : 6, r : 4
 - `chmod 777` : rwxrwxrwx : donne tous les droit a tous le monde
+- `chmod XXX` : 1er X : Droit; 2eme X user; 3eme X : Groupe
 
 ### Move command
 - `mv <adress de départ> <adresse d'arrivée>` : Déplace un fichier
