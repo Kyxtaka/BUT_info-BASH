@@ -137,4 +137,7 @@ Taille de votre home
 
 ### Script : 
 `#!/bin/bash <command> <$parameter>` : lance la commande avec l'attribut
-`a=$(<command>)` : stock une commande dans un variable dans le fichier sh 
+`a=$(<command>)` : stock une commande dans un variable dans le fichier sh
+- `\<character>` : `\` est le caractère d'échapment permet de rajouter des espace ou `" ou '` dans un seul argument
+- `<command> $<charactère ou mot>` : `$1` sera l'attribut mis en paramètre lors de l'apelle de la commande
+
