@@ -161,3 +161,7 @@ Advande packages tool : `apt`
 - `apt-cache search <key word>` : rechercher un packet par mot clé dans la list de packet 
 - `sudo apt update` : mettre a jour la liste de paquets disponibles
 - `sudo apt upgrade` : mettre a jour la liste de paquet installés
+
+
+## note : 
+- insérer un image en MD : `![./image.jpg]()`
