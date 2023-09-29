@@ -105,6 +105,18 @@ Taille de votre home
 - `mv <adress de départ> <adresse d'arrivée>` : Déplace un fichier
 - `mv fichier1 fichier2` : rename fichier1 e, fochier 2
 - `mw <fichier> /home/toto/document/fichier2` : déplacele fichier cer le nouvel emplacement
+- `mv <repertoire> <autre repertoire> ` : deplace tout le dossier dans le repertoire choisis
+- `mv <fichier> <repertoire+autre nom>` : deplace et renomme le fichier 
+- `mv <fichier> ../ ` : deplace dans le repertoire parent
+
+
+### Copie command : CP
+- `cp <fichier> <repertoir>` : copie dans un autre repertoire
+- `cp ~/toto/turc.txt /home/toto/truc.bash` : copie et renomme
+- `cp truc.txt mashin.txt` : copie dans le même repertoire 
+- `cp fichier1 fichier2 fichier3 fichier4 "/mon repertoir/"` : copie de plusieurs fichiers
+### MV et CP option : 
+- `-n` : permet de ne pas demander la confirmation si on ecrase un fichier. 
 
 ### Manuel
 - `man <command>` : ouvre le manuel
