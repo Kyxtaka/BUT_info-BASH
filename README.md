@@ -137,8 +137,11 @@ Taille de votre home
 - `<command> 2> /dev/null > <fichier.txt>` : envoie la sortie d'erreur dans le trou noir mais la sortie standart dans le fichier txt
 
 ### Script : 
-`#!/bin/bash <command> <$parameter>` : lance la commande avec l'attribut
-`a=$(<command>)` : stock une commande dans un variable dans le fichier sh
+- `#!/bin/bash <command> <$parameter>` : lance la commande avec l'attribut
+- `a=$(<command>)` : stock une commande dans un variable dans le fichier sh ==> Les " " (espace) ne marche pas 
 - `\<character>` : `\` est le caractère d'échapment permet de rajouter des espace ou `" ou '` dans un seul argument
 - `<command> $<charactère ou mot>` : `$1` sera l'attribut mis en paramètre lors de l'apelle de la commande
+- Trouver l'interpreteur : `which bash`
+- 1er ligne de fichier script : `#!/bin/bash`
+
 
