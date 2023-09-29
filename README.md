@@ -137,7 +137,7 @@ Taille de votre home
 - `<command> 2> /dev/null > <fichier.txt>` : envoie la sortie d'erreur dans le trou noir mais la sortie standart dans le fichier txt
 
 ### Script : 
-- `#!/bin/bash <command> <$parameter>` : lance la commande avec l'attribut
+- `#!/bin/bash <command> <$parameter>` : lance la commande avec l'attribut ==> Shebang
 - `a=$(<command>)` : stock le resultat une commande dans une variable dans le fichier sh. Les " " (espace) ne marche pas et garder les ()
 - `\<character>` : `\` est le caractère d'échapment permet de rajouter des espace ou `" ou '` dans un seul argument
 - `<command> $<charactère ou mot>` : `$1` sera l'attribut mis en paramètre lors de l'apelle de la commande
@@ -146,5 +146,6 @@ Taille de votre home
 
 ### Script et attribut : 
 - dans le script si son ecrit `echo Bonjour $1` ==> si on appel le fichier tel que : fichier.sh Test ==> Bonjour Test (resultat)
-
+- `$(whoami)` : interprete le resultat de la commande whoami 
+    - `echo Bonjour $(whoami)` : resultet = echo '''mon nom d'utilisateur'''
 
