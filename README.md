@@ -150,6 +150,12 @@ Taille de votre home
 - `$(whoami)` : interprete le resultat de la commande whoami 
     - `echo Bonjour $(whoami)` : resultet = echo '''mon nom d'utilisateur'''
 
+### Script et expression :
+- `expr <number> + <number>` : addition des deux nombres
+- `expr <number> - <number>` : la meme en soustraction
+- `expr <number> / <number>` : Division
+- `expr <number> \+ <number>` : multiplication, bien penser a passer `*` en char. d'echappement
+
 ### Variable : 
 -`nom=$(<command>)`: variable
 
