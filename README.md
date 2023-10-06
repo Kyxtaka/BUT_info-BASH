@@ -189,7 +189,7 @@ Car ls -ls -l cherche a connaitre la date, le proprietaire, la date de modificat
 
 ### Droit : Les inodes 
 System de fichier : C'est une façon de stocker les informations et de les organiser dans un espace disque
-Metadonnées d'un fichier : Droit - Proprétaire - groupe - - date de derniere modif -  
+Metadonnées d'un fichier : Droit - Proprétaire - groupe - taille du fichier - date de derniere modif - on sont stocké les données
 - Les blocs de données contiennent les données des fichiers (ce qu'on va voir en regardant le contenu hexadécimal d'un fichier)
 - les inodes contiennent les méta-données : permissions, taille du fichier, date de dernière modification, etc. ainsi que l'indication de l'endroit où se trouvent les données associées
 
