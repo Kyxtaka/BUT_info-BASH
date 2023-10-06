@@ -199,11 +199,12 @@ Metadonnées d'un fichier : Droit - Proprétaire - groupe - taille du fichier - 
 
 ### Install Packages 
 Advande packages tool : `apt`
-- `apt list --installed` : retourne la list de tout les paquet installés
+- `apt list --installed` : retourne la liste de tout les paquet installés
 - `sudo apt install <package_name>` : installe le packet demander pour installer le logiciel
 - `apt-cache search <key word>` : rechercher un packet par mot clé dans la list de packet 
 - `sudo apt update` : mettre a jour la liste de paquets disponibles
-- `sudo apt upgrade` : mettre a jour la liste de paquet installés
+- `sudo apt upgrade` : mettre a jour des paquet installés
+- `sudo apt purge` : desinstaller un paquet
 
 ## note : 
 - insérer un image en MD : `![./image.jpg]()`
