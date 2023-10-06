@@ -192,6 +192,9 @@ System de fichier : C'est une façon de stocker les informations et de les organ
 Metadonnées d'un fichier : Droit - Proprétaire - groupe - taille du fichier - date de derniere modif - on sont stocké les données
 - Les blocs de données contiennent les données des fichiers (ce qu'on va voir en regardant le contenu hexadécimal d'un fichier)
 - les inodes contiennent les méta-données : permissions, taille du fichier, date de dernière modification, etc. ainsi que l'indication de l'endroit où se trouvent les données associées
+`ls -i` : permet d'obtenir la liste des numéros d'inodes des fichiers courants
+- Les inodes contiennent les métadonnées des pointeurs vers les données constituant les fichiers
+- Des fichier différents sur des partision espace disque différents peuvent avoir les même numéros inodes
 
 
 ### Install Packages 
