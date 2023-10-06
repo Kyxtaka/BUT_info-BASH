@@ -174,6 +174,7 @@ Taille de votre home
 
 ### Jokers : extention : *.{} 
 - `<commande> *.{<ext1>,<ext2>,<ext3>}` : prend en argument tout les fichier se terminant par les ext `<ext1>` ou `ext2` ou `ext3`
+- `{me,re}*s` : prend en argument tout les fichier commençant pas `me` ou `re` et se terminant par `s`
 
 ### Back to Droit : Dossier / repertoire 
 - Avec `ls -l` : si dans la premiere colonne on a `drwxrwxr-x`, si ca commence par un d, c'est que c'est un dossier. Dans le cas contraire c'est un fichier
