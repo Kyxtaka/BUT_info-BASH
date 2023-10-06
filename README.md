@@ -187,6 +187,12 @@ Car ls -ls -l cherche a connaitre la date, le proprietaire, la date de modificat
 
 - Pour supprimer un fichier dans un dossier il faut juste les droit `r et x` pour le dossier et le droit `w` pour le fichier car on modifie juste le contenu
 
+### Droit : Les inodes 
+System de fichier : C'est une façon de stocker les informations et de les organiser dans un espace disque
+Metadonnées d'un fichier : Droit - Proprétaire - groupe - - date de derniere modif -  
+- Les blocs de données contiennent les données des fichiers (ce qu'on va voir en regardant le contenu hexadécimal d'un fichier)
+- les inodes contiennent les méta-données : permissions, taille du fichier, date de dernière modification, etc. ainsi que l'indication de l'endroit où se trouvent les données associées
+
 
 ### Install Packages 
 Advande packages tool : `apt`
