@@ -154,7 +154,9 @@ Taille de votre home
 -`nom=$(<command>)`: variable
 
 ### Jokers : liste de char : *[] ; *[]* ; []* 
-- `<commande> [<lettre>]*` :
+- `<commande> [<char1><char2><charN>]*` : prend en argument tout les fichier commencant par le `<char>` ou `char2` ou `charN`
+- `<commande> *[<char1><char2><charN>]*` : prend en argument tout les fichier contenant par le `<char>` ou `char2` ou `charN`
+- `<commande> *[<char><char2><charN>]` : prend en argument tout les fichier se terminant par le `<char>` ou `char2` ou `charN`
 
 
 ### Install Packages 
