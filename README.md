@@ -181,7 +181,11 @@ Taille de votre home
 - Par contre si j'ai les droits d'ecriture et de lecture mais pas d'execution `rw-` je ne pourrais pas creer ni ouvrir de fichier 
 - Pour effectuer les commande `ls et find` il faut avoir le droit  `r` mais il faut egalement le droit `x`
 - Note si on fait `ls` dans un dossier dont  on n'a le droit d'execution `x`, on obtien un message d'erreurs pour chaque fichier dans le repetoire mais le nom de ces fichier s'affiche :
- -  `ls: cannot access 'Bureau/exemple5': Permission denied `<br> `ls: cannot access 'Bureau/exemple6': Permission denied `<br> `exemple5  exemple6 `
+    -  `ls: cannot access 'Bureau/exemple5': Permission denied `<br> `ls: cannot access 'Bureau/exemple6': Permission denied `<br> `exemple5  exemple6 ` <br> `total 0`
+Car ls -ls -l cherche a connaitre la date, le proprietaire, la date de modification et etc donc quand on execute `ls -l` dans un dossier où on a pas le droit d'execution `x` alors la commande nous renvoie : ,
+    - `????????? ? ? ? ?            ? exemple5` <br>`????????? ? ? ? ?            ? exemple6`
+
+- Pour supprimer un fichier dans un dossier il faut juste les droit `r et x` pour le dossier car on modifie juste le contenu
 
 
 ### Install Packages 
