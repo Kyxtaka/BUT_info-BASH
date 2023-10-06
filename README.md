@@ -153,6 +153,9 @@ Taille de votre home
 ### Variable : 
 -`nom=$(<command>)`: variable
 
+### Jokers : liste de char : *[] ; *[]* ; []* 
+- `<commande> [<lettre>]*` :
+
 
 ### Install Packages 
 Advande packages tool : `apt`
@@ -165,3 +168,4 @@ Advande packages tool : `apt`
 
 ## note : 
 - insérer un image en MD : `![./image.jpg]()`
+
