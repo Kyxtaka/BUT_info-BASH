@@ -196,6 +196,8 @@ Metadonnées d'un fichier : Droit - Proprétaire - groupe - taille du fichier - 
 `ls -i` : permet d'obtenir la liste des numéros d'inodes des fichiers courants
 - Les inodes contiennent les métadonnées des pointeurs vers les données constituant les fichiers
 - Des fichier différents sur des partision espace disque différents peuvent avoir les même numéros inodes
+- Un Dossier est un fichier associant a chaque nom de fichier un numéro d'inode
+    - A retenir: un dossier est un fichier associant à chaque nom de fichier un numéro d'inode. Les dossiers contiennent seulement l'association "nom de fichier -> numéro d'inode"
 
 
 ### Install Packages 
