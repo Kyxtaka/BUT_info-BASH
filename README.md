@@ -199,5 +199,6 @@ Advande packages tool : `apt`
 ## note : 
 - insérer un image en MD : `![./image.jpg]()`
 - `wc` : command wordcount aui permet de compter le nobre de ligne dans un fichier 
+- `nb=$(ls -l|wc -l)` : `ls -l|wc -l` envoie la la sortie de la commande `ls -l` dans `wc` et `wc -l` calcul le nombre de ligne soit `nb` obtient le nombre de ligne retourner par `ls *l`
 
 
