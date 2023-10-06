@@ -143,12 +143,15 @@ Taille de votre home
 - `<command> $<charactère ou mot>` : `$1` sera l'attribut mis en paramètre lors de l'apelle de la commande
 - Trouver l'interpreteur : `which bash`
 - 1er ligne de fichier script : `#!/bin/bash`
+- `nb=$(ls -l|wc -l)` : `ls -l|wc -l` envoie la la sortie de la commande `ls -l` dans `wc` et `wc -l` calcul le nombre de ligne soit `nb` obtient le nombre de ligne retourner par `ls *l`
+- `$#` : permet d'obtenir le nombre d'argument dans un fichier sh 
 
 
 ### Script et attribut : 
 - dans le script si son ecrit `echo Bonjour $1` ==> si on appel le fichier tel que : fichier.sh Test ==> Bonjour Test (resultat)
 - `$(whoami)` : interprete le resultat de la commande whoami 
     - `echo Bonjour $(whoami)` : resultet = echo '''mon nom d'utilisateur'''
+
 
 ### Script et expression :
 - `expr <number> + <number>` : addition des deux nombres
@@ -172,10 +175,14 @@ Taille de votre home
 ### Jokers : extention : *.{} 
 - `<commande> *.{<ext1>,<ext2>,<ext3>}` : prend en argument tout les fichier se terminant par les ext `<ext1>` ou `ext2` ou `ext3`
 
-### Back to Droit :
+### Back to Droit : Dossier / repertoire 
 - Avec `ls -l` : si dans la premiere colonne on a `drwxrwxr-x`, si ca commence par un d, c'est que c'est un dossier. Dans le cas contraire c'est un fichier
 - Si pour le dossier on a le droit `x` c'est qu'on peut le traverser entre autre utiliser la commande `cd`, mais ne veut pas forcement dire que je peux voir ou ecrire le contenu de ce dossier
 - Par contre si j'ai les droits d'ecriture et de lecture mais pas d'execution `rw-` je ne pourrais pas creer ni ouvrir de fichier 
+- Pour effectuer les commande `ls et find` il faut avoir le droit  `r` mais il faut egalement le droit `x`
+- Note si on fait `ls` dans un dossier dont  on n'a le droit d'execution `x`, on obtien un message d'erreurs pour chaque fichier dans le repetoire mais le nom de ces fichier s'affiche :
+ -  `ls: cannot access 'Bureau/exemple5': Permission denied `<br> `ls: cannot access 'Bureau/exemple6': Permission denied `<br> `exemple5  exemple6 `
+
 
 ### Install Packages 
 Advande packages tool : `apt`
@@ -187,5 +194,6 @@ Advande packages tool : `apt`
 
 ## note : 
 - insérer un image en MD : `![./image.jpg]()`
+- `wc` : command wordcount aui permet de compter le nobre de ligne dans un fichier 
 
 
