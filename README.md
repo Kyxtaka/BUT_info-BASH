@@ -185,7 +185,7 @@ Taille de votre home
 Car ls -ls -l cherche a connaitre la date, le proprietaire, la date de modification et etc donc quand on execute `ls -l` dans un dossier où on a pas le droit d'execution `x` alors la commande nous renvoie :
     - `????????? ? ? ? ?            ? exemple5` <br>`????????? ? ? ? ?            ? exemple6`
 
-- Pour supprimer un fichier dans un dossier il faut juste les droit `r et x` pour le dossier car on modifie juste le contenu
+- Pour supprimer un fichier dans un dossier il faut juste les droit `r et x` pour le dossier et le droit `w` pour le fichier car on modifie juste le contenu
 
 
 ### Install Packages 
