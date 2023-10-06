@@ -166,7 +166,10 @@ Taille de votre home
 ### Jokers : extention : *.{} 
 - `<commande> *.{<ext1>,<ext2>,<ext3>}` : prend en argument tout les fichier se terminant par les ext `<ext1>` ou `ext2` ou `ext3`
 
-
+### Back to Droit :
+- Avec `ls -l` : si dans la premiere colonne on a `drwxrwxr-x`, si ca commence par un d, c'est que c'est un dossier. Dans le cas contraire c'est un fichier
+- Si pour le dossier on a le droit `x` c'est qu'on peut le traverser entre autre utiliser la commande `cd`, mais ne veut pas forcement dire que je peux voir ou ecrire le contenu de ce dossier
+- Par contre si j'ai les droits d'ecriture et de lecture mais pas d'execution `rw-` je ne pourrais pas creer ni ouvrir de fichier 
 
 ### Install Packages 
 Advande packages tool : `apt`
@@ -179,4 +182,5 @@ Advande packages tool : `apt`
 
 ## note : 
 - insérer un image en MD : `![./image.jpg]()`
+
 
