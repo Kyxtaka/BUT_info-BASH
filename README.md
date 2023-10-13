@@ -253,8 +253,14 @@ structure du if : <br>
 `chmod u+x $fichier`<br>
 `fi`
 
+# Pipeline
+` <commande1> | <commande dont l'entree standard est command1` :
+`head -X <file path>` : affichier les X premiere ligne d'un fichier file, X est un int
+`tail -X <file path>` : affichier les X derniere ligne d'un fichier file, X est un Int
 
-## note : 
+## note :
+- `cut -d ':' -f 1 /etc/passwd ` : 
+- en bash `read` : permet d'ouvrir un entree standard 
 - insérer un image en MD : `![./image.jpg]()`
 - `wc` : command wordcount aui permet de compter le nobre de ligne dans un fichier 
 - `nb=$(ls -l|wc -l)` : `ls -l|wc -l` envoie la la sortie de la commande `ls -l` dans `wc` et `wc -l` calcul le nombre de ligne soit `nb` obtient le nombre de ligne retourner par `ls *l`
