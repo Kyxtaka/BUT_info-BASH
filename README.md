@@ -217,7 +217,7 @@ Advande packages tool : `apt`
 - `test -e /tmp/` peut aussi s'ecrire ` [ -e /tmp/ ]` : `[` et `]` designe la commande test, il faut respecter les ESPACES
 - `if [ bonjour == bonjour ]; then  echo AAAA; else  echo BBBB; fi` : syntaxe, bien respecter les espace
 `#/bin/bash` : script qui lit son entree standard
-structure du if : 
+structure du if : <br>
 `if <condition>`<br>
 `then`<br>
 `...`<br>
@@ -230,7 +230,7 @@ structure du if :
 `fi`
 
 # Retour scripts
-##
+## 
 `#/bin/bash` <br>
 `read Phrase`<br>
 `echo $Phrase`
@@ -242,8 +242,16 @@ structure du if :
 `#/bin/bash`<br>
 `tr [:lower:] [:upper:] < $1 (>>Fichier)`<br>
 - `./script.sh 'coucou' ==> argument`
-
-
+##
+`#/bin/bash`<br>
+`echo Donner l'addresse du fichier`<br>
+`read fichier`
+`if [ -x $fichier]`
+`then`
+`echo ok`
+`else`
+`chmod u+x $fichier`
+`fi`
 
 
 ## note : 
