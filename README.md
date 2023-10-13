@@ -215,3 +215,10 @@ Advande packages tool : `apt`
 - `nb=$(ls -l|wc -l)` : `ls -l|wc -l` envoie la la sortie de la commande `ls -l` dans `wc` et `wc -l` calcul le nombre de ligne soit `nb` obtient le nombre de ligne retourner par `ls *l`
 
 
+# A faire avant semaine : 
+- 6.2 (pas long)
+- ! 6.3 redirection
+- !! 6.4 Conditions
+- !! 7.1 Pipeline
+
+- 8 Boucle for
