@@ -213,7 +213,7 @@ Advande packages tool : `apt`
  - `<command> < <fichier>` : redirige l'entrée standard par un fichier 
 
 ## Condition if en bash : 
-<!-- `if <command>`<br>`then`<br>`   <commande ou code`<br>`<else>`<br>` <commande ou code>`<br>`fi`<br> Structure d'une boucle if  -->
+`if <command>`<br>`then`<br>`   <commande ou code`<br>`<else>`<br>` <commande ou code>`<br>`fi`<br> Structure d'une boucle if 
 - `if [ bonjour == bonjour ]; then  echo AAAA; else  echo BBBB; fi` : syntaxe, bien respecter les espace
 
 ## note : 
