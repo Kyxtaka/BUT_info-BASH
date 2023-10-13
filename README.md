@@ -245,12 +245,12 @@ structure du if : <br>
 ##
 `#/bin/bash`<br>
 `echo Donner l'addresse du fichier`<br>
-`read fichier`
-`if [ -x $fichier]`
-`then`
-`echo ok`
-`else`
-`chmod u+x $fichier`
+`read fichier`<br>
+`if [ -x $fichier]`<br>
+`then`<br>
+`echo ok`<br>
+`else`<br>
+`chmod u+x $fichier`<br>
 `fi`
 
 
