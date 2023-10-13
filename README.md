@@ -209,6 +209,12 @@ Advande packages tool : `apt`
 - `sudo apt upgrade` : mettre a jour des paquet installés
 - `sudo apt purge` : desinstaller un paquet
 
+## Redirection d'entrée standard a partir d'un fichier :
+ - `<command> < <fichier>` : redirige l'entrée standard par un fichier 
+
+## Condition if en bash : 
+`if <command>`<br>`then`<br>`   <commande ou code`<br>`<else>`<br>` <commande ou code>`<br>`fi`<br> Structure d'une boucle if 
+
 ## note : 
 - insérer un image en MD : `![./image.jpg]()`
 - `wc` : command wordcount aui permet de compter le nobre de ligne dans un fichier 
