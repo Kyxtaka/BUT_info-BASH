@@ -218,29 +218,29 @@ Advande packages tool : `apt`
 - `if [ bonjour == bonjour ]; then  echo AAAA; else  echo BBBB; fi` : syntaxe, bien respecter les espace
 `#/bin/bash` : script qui lit son entree standard
 structure du if : 
-`if <condition>`
-`then`
-`...`
-`...`
-`...`
-`else`
-`...`
-`...`
-`...`
+`if <condition>`<br>
+`then`<br>
+`...`<br>
+`...`<br>
+`...`<br>
+`else`<br>
+`...`<br>
+`...`<br>
+`...`<br>
 `fi`
 
 # Retour scripts
 ##
-`#/bin/bash` 
-`read Phrase`
+`#/bin/bash` <br>
+`read Phrase`<br>
 `echo $Phrase`
 ##
-`#/bin/bash`
-`read mot`
+`#/bin/bash`<br>
+`read mot`<br>
 `tr abc....z ABC....Z  < $mot` : script qui prend en argument un mot et le renvoir en MAJ.
 ##
-`#/bin/bash`
-`tr [:lower:] [:upper:] < $1 (>>Fichier)`
+`#/bin/bash`<br>
+`tr [:lower:] [:upper:] < $1 (>>Fichier)`<br>
 - `./script.sh 'coucou' ==> argument`
 
 
