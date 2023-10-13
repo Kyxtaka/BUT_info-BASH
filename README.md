@@ -211,11 +211,40 @@ Advande packages tool : `apt`
 
 ## Redirection d'entrée standard a partir d'un fichier :
  - `<command> < <fichier>` : redirige l'entrée standard par un fichier 
+ - `tr <somme letter> <change letter>` chaque lettre du premier argument en chaque lettre du deuxieme 
 
 ## Condition if en bash : 
-`if <command>`<br>`then`<br>`   <commande ou code`<br>`<else>`<br>` <commande ou code>`<br>`fi`<br> Structure d'une boucle if 
-- `if [ bonjour == bonjour ]; then  echo AAAA; else  echo BBBB; fi` : syntaxe, bien respecter les espace
 - `test -e /tmp/` peut aussi s'ecrire ` [ -e /tmp/ ]` : `[` et `]` designe la commande test, il faut respecter les ESPACES
+- `if [ bonjour == bonjour ]; then  echo AAAA; else  echo BBBB; fi` : syntaxe, bien respecter les espace
+`#/bin/bash` : script qui lit son entree standard
+structure du if : 
+`if <condition>`
+`then`
+`...`
+`...`
+`...`
+`else`
+`...`
+`...`
+`...`
+`fi`
+
+# Retour scripts
+##
+`#/bin/bash` 
+`read Phrase`
+`echo $Phrase`
+##
+`#/bin/bash`
+`read mot`
+`tr abc....z ABC....Z  < $mot` : script qui prend en argument un mot et le renvoir en MAJ.
+##
+`#/bin/bash`
+`tr [:lower:] [:upper:] < $1 (>>Fichier)`
+- `./script.sh 'coucou' ==> argument`
+
+
+
 
 ## note : 
 - insérer un image en MD : `![./image.jpg]()`
